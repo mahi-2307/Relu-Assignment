@@ -1,0 +1,25 @@
+.painting {
+  display: flex;
+  gap: 30px;
+  .contianer {
+    width: 270px;
+    .painting {
+      border-radius: 10px;
+      width: 252px;
+      height: 180px;
+    }
+    .details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .price_rating {
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-weight: 600;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

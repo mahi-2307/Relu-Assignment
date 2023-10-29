@@ -1,0 +1,50 @@
+.rightBar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  right: 0;
+  .top {
+    display: flex;
+    gap: 15px;
+   
+  }
+  .bottom {
+    background-color: white;
+    padding: 10px;
+    .fields {
+      display: flex;
+      gap: 30px;
+      padding-bottom:20px ;
+    }
+    .side-image {
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+      .on-bg {
+        position:relative;
+        display: flex;
+        top: -60px;
+        left: 20px;
+        align-items: center;
+        img {
+          top: 259px;
+          left: 1154px;
+          width: 48px;
+          height: 48px;
+          border: 2px solid #FFFFFF;
+
+        }
+        .details{
+            
+                color: white;
+            
+            display: flex;
+            flex-direction: column;
+        }
+      }
+    }
+  }
+}
